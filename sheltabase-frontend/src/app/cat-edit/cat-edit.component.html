@@ -1,0 +1,13 @@
+
+
+<form id="cat form">
+  <h2>Edit {{cat.name}}</h2>
+
+    <input placeholder="{{cat.name}}" [(ngModel)]="cat.name" name="name">
+
+    <input placeholder="{{cat.location}}" [(ngModel)]="cat.location" name="location">  
+
+    <button (click)="save()" type="button">Save</button>
+    <button (click)="remove()" type="button"> Delete</button>
+    
+</form>

@@ -1,5 +1,5 @@
 package com.example.catsapi.controller;
-import org.springframework.web.bind.annotation.CrossOrigin;
+//import org.springframework.web.bind.annotation.CrossOrigin;
 import com.example.catsapi.models.Cat;
 import com.example.catsapi.repositories.CatRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,31 +14,31 @@ public class CatsController {
     @Autowired
     CatRepository catRepository;
 
-    @GetMapping("/allcats")
-    @CrossOrigin(origins = "http://localhost:4200")
+    @GetMapping("/")
+//    @CrossOrigin(origins = "http://localhost:4200")
     public Iterable<Cat> findAllCats() {
         return catRepository.findAll();
     }
+
+    @GetMapping("/{catId}")
     public Cat findCatById(@PathVariable Long catId) {
         return catRepository.findOne(catId);
     }
 
-    @DeleteMapping("/cat/{catId}")
+    @DeleteMapping("/{catId}")
     public HttpStatus deleteCatById(@PathVariable Long catId) {
         catRepository.delete(catId);
         return HttpStatus.OK;
     }
-    @PostMapping("/cat")
+    @PostMapping("/")
     public Cat createNewCat(@RequestBody Cat newCat) {
-
         return catRepository.save(newCat);
     }
-    @PatchMapping("/cat/{catId}")
+    @PatchMapping("/{catId}")
     public Cat updateCatById(@PathVariable Long catId, @RequestBody Cat catRequest) {
         Cat catFromDb = catRepository.findOne(catId);
         catFromDb.setName(catRequest.getName());
         catFromDb.setLocation(catRequest.getLocation());
-        catFromDb.setFoster(catRequest.getFoster());
         return catRepository.save(catFromDb);
     }
 

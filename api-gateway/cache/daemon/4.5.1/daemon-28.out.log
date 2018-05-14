@@ -614,3 +614,5 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 [2m2018-05-13 03:41:17.196[0;39m [32m INFO[0;39m [35m66[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
 [2m2018-05-13 03:46:17.199[0;39m [32m INFO[0;39m [35m66[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
 [2m2018-05-13 03:51:17.202[0;39m [32m INFO[0;39m [35m66[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2018-05-13 03:56:17.204[0;39m [32m INFO[0;39m [35m66[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2018-05-13 04:01:17.205[0;39m [32m INFO[0;39m [35m66[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
