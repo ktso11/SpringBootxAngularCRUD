@@ -14,8 +14,8 @@
       <file leaf-file-name="V1__Create_cats_table.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql/V1__Create_cats_table.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="2" lean-forward="true" selection-end-line="6" selection-end-column="2" />
+            <state relative-caret-position="75">
+              <caret line="5" column="2" lean-forward="true" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -217,8 +217,8 @@
     <entry file="file://$PROJECT_DIR$/db/afterMigration.sql" />
     <entry file="file://$PROJECT_DIR$/sql/V1__Create_cats_table.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="2" lean-forward="true" selection-end-line="6" selection-end-column="2" />
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>

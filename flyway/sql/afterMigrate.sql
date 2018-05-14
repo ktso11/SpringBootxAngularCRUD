@@ -1,9 +1,9 @@
 INSERT INTO CATS
-	(NAME, LOCATION, FOSTER)
+	(NAME, LOCATION)
     VALUES
-    ('Tofu', 'San Jose', 'Katie'),
-    ('Bean', 'San Jose', 'Charles'),
-    ('Smokey', 'San Jose', 'Joe');
+    ('Tofu', 'San Jose'),
+    ('Bean', 'San Jose'),
+    ('Smokey', 'San Jose');
 
 INSERT INTO FOSTERS
 	(NAME, ADDRESS)

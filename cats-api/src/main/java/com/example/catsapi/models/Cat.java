@@ -19,6 +19,4 @@ public class Cat {
     @Column(name = "LOCATION")
     private String location;
 
-    @Column(name = "FOSTER")
-    private String foster;
 }

@@ -1,0 +1,8 @@
+<div *ngFor="let cat of cats">
+  
+  <b>Name: </b><a [routerLink]="['/cats', cat.id]">{{cat.name}}</a>
+  <b> // Location: </b> {{cat.location}}
+</div>
+
+  
+  
