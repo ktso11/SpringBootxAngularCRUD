@@ -1,19 +1,20 @@
 import { Http } from '@angular/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { timingSafeEqual } from 'crypto';
+
+
 
 @Injectable({
   providedIn: 'root'
 })
+
 export class UserService {
 
   constructor(private http: Http) { }
 
-  getAllCats(): Observable<any>{
+  getAllCats() {
     return this.http.get('/api/cats');
   }
-  getAllFosters(): Observable<any>{
+  getAllFosters(){
     return this.http.get('/api/fosters');
   }
   
